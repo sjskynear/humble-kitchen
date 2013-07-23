@@ -1,0 +1,66 @@
+/* ==== Humble Kitchen CSS/ruby on rails 
+        mobile application 
+        table for free positioning
+        by sham skynear version 2 ===== */
+    
+    
+/* ===== global styles ===== */
+
+body  {
+	background: #fff;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+tr, td {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+/* ===== icon image ==== */
+
+td#hk-icon-sm {
+    height: 100px;
+}
+
+#hk-icon-sm {
+	position: absolute;
+	left: 150px;
+	top: 9px;
+}
+
+#hk-icon-sm {
+	height: 100px;
+	margin: 0 0 0 0
+}
+
+#hk-icon-sm a:hover {
+    border-bottom: none;
+}
+
+/* ===== mobile toolbar ==== */
+
+td#mobile-toolbar {
+    height: 75px;
+}
+
+#mobile-toolbar {
+	position: absolute;
+	left: 10px;
+	top: 900px;
+}
+
+#mobile-toolbar {
+	height: 75px;
+	margin: 0 0 0 0
+}
+
+#mobile-toolbar a:hover {
+    border-bottom: none;
+}
